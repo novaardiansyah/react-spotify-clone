@@ -1,0 +1,29 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+@use 'sass:map';
+@use 'partials/variables'as v;
+@use 'partials/mixin' as m;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @include m.darkTheme();
+}
+
+a {
+  text-decoration: none;
+  color: map-get(v.$colors, cl-light-blue);
+  transition: all .3s ease;
+  
+  &:hover {
+    color: map-get(v.$colors, cl-green);
+  }
+}
+
+.content {
+  /* min-height: 95vh; */
+  /* margin-bottom: 5vh; */
+}

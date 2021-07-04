@@ -1,0 +1,27 @@
+/* generate theme */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f3640;
+  color: #f5f6fa;
+}
+
+a {
+  text-decoration: none;
+  color: #00a8ff;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #4cd137;
+}
+
+.content {
+  /* min-height: 95vh; */
+  /* margin-bottom: 5vh; */
+}
+
+/*# sourceMappingURL=app.css.map */
